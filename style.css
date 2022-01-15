@@ -11,24 +11,42 @@ h1{
 section{
     display: flex ;
 }
-.width{
+.width-bg{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 6%;
 }
-.width img{
+.width-bg img{
     width: 80%;
-    padding-left: 2%;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
     font-weight: 700;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 5px;
 }
 .top-bg{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+.resume{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px; 
+}
+
+.dream{
+    width: 95%;
+    padding-right: 5%;
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
