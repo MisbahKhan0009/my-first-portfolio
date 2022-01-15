@@ -19,6 +19,7 @@ h1{
 }
 .width-bg img{
     width: 80%;
+
 }
 .link-button{
     text-decoration: none;
@@ -59,10 +60,53 @@ h1{
 }
 .pro{
     display: flex;
+    color: orange;
 }
 .exp{
     padding-left: 6%;
 }
 .gol{
     padding-right: 60px;
+}
+.shadow{
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    width: 40%
+    
+
+}
+.width-bg1{
+    width: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#st{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(223, 130, 130), rgb(179, 88, 61));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+#nd{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(130, 163, 223), rgb(61, 87, 236));
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+footer p{
+    text-align: center;
+    color: grey;
+}
+p{
+    color: grey;
 }
