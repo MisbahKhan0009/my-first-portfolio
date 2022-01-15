@@ -8,8 +8,10 @@ h1{
 .name{
     color: orange;
 }
-section{
+
+.flexible{
     display: flex ;
+    padding-bottom: 20px;
 }
 .width-bg{
     width: 50%;
@@ -26,6 +28,8 @@ section{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .top-bg{
     background-image: url(images/top-banner.png);
@@ -40,6 +44,8 @@ section{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .dream{
@@ -49,4 +55,14 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 50px;
+}
+.pro{
+    display: flex;
+}
+.exp{
+    padding-left: 6%;
+}
+.gol{
+    padding-right: 60px;
 }
