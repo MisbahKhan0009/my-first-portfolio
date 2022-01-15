@@ -87,6 +87,7 @@ h1{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+
     
 }
 #st{
@@ -102,6 +103,7 @@ h1{
     border-image: linear-gradient(rgb(130, 163, 223), rgb(61, 87, 236));
     border-image-slice: 1;
     border-radius: 5px;
+    
 }
 footer p{
     text-align: center;
